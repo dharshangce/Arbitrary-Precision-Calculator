@@ -43,4 +43,5 @@ int subtraction(Dlist **head1, Dlist **tail1, Dlist **head2, Dlist **tail2, Dlis
 	  if(temp_tail2!=NULL)
 	  temp_tail2=temp_tail2->prev;
   }
+
 }

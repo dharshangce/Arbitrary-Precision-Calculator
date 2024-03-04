@@ -115,27 +115,6 @@ int addmul(Dlist **headR,Dlist **tailR,Dlist **resultH,Dlist **resultT)
 	{
 		create_node(&head,&tail,carry);
 	}
-	/*Dlist *temp=(*resultT!=NULL)?*resultT:*tailR;
-	while(temp)
-	{
-		sum=carry+temp->data;
-		carry=sum/10;
-		sum=sum%10;
-		temp=temp->prev;
-		create_node(&head,&tail,sum);
-	}
-	if(carry)
-	{
-		create_node(&head,&tail,carry);
-	}
-	Dlist *tem=head;*/
-	/*printf("In function\n");
-	while(tem)
-	{
-		printf("%d ",tem->data);
-		tem=tem->next;
-	}
-	printf("_______---------------\n");*/
 	*headR=head;
 	*tailR=tail;
 

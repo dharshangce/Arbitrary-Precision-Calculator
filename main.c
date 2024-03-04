@@ -94,8 +94,16 @@ int main(int argc,char *argv[])
 					   printf("Info : Error in Subtraction\n");
 				   }
 				break;
-			case '/':	
-				/* call the function to perform the division operation */
+			case '/':
+			    if(division(&head1,&tail1,&head2,&tail2,&headR)==SUCCESS)
+				{
+					printf("Result is : ");
+					display(headR);
+				}
+				else
+				{
+					printf("Info : Error in Division\n");
+				}
 				break;
 			default:
 				printf("Invalid Input:-( Try again...\n");

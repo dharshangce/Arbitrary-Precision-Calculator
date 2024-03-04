@@ -18,4 +18,6 @@ int subtraction(Dlist **,Dlist **,Dlist **,Dlist **,Dlist **);
 int create_node(Dlist **,Dlist ** ,int);
 int multiply(Dlist **head1, Dlist **tail1, Dlist **head2, Dlist **tail2, Dlist **headR);
 int addmul(Dlist **headR,Dlist **tailR,Dlist **resultH,Dlist **resultT);
+int division(Dlist **head1,Dlist **tail1,Dlist **head2,Dlist **tail2,Dlist **headR);
+int subdiv(Dlist **,Dlist **,Dlist **,Dlist **);
 #endif
